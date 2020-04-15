@@ -1,0 +1,31 @@
+.container {
+  margin: 50px 0;
+}
+
+.card {
+  margin: 0 2% !important;
+  background: linear-gradient(to right, rgb(232, 203, 192), rgb(99, 111, 164));
+  border-radius: 30px !important;
+}
+
+.heading {
+  color: #000 !important;  
+}
+
+.infected {
+  border: 5px solid #204051;
+}
+
+.recovered{
+  border: 5px solid #204051;
+}
+
+.deaths{
+  border: 5px solid #204051;
+}
+
+@media only screen and (max-width: 770px) {
+  .card {
+    margin: 2% 0 !important;
+  }
+}

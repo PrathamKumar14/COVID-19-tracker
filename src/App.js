@@ -16,12 +16,13 @@ class App extends React.Component {
     const fetchedData = await fetchData();
     this.setState({ data: fetchedData })
   }
-  
+
   render() {
     const { data } = this.state;
 
     return (
       <div className={styles.container}>
+        <h1>COVID-19</h1>
         <Cards data={ data }/>
         <Chart />
         <CountryPicker />
