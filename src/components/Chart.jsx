@@ -26,8 +26,8 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
           {
             label: "People",
             backgroundColor: [
-              "rgb(233, 183, 90)",
               "rgb(93, 211, 93)",
+              "rgb(233, 183, 90)",
               "rgb(235, 74, 74)"
             ],
             data: [confirmed.value, recovered.value, deaths.value]
